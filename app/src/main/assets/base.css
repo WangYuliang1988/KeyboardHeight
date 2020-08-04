@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  background: darkcyan;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  background: burlywood;
+  display: flex;
+}
+.main div {
+  margin: auto;
+}
+
+.footer {
+  height: 48px;
+  background: forestgreen;
+}
+
+.input {
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid #151618;
+}
